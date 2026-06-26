@@ -27,7 +27,7 @@ const PROJECTS = [
   glow: 'rgba(244,63,94,0.25)',
   badge: 'bg-rose-500/10 text-rose-400 border-rose-500/25',
   num: '01',
-}
+},
   {
     title: 'Visitor Management System',
     description: 'Full-stack VMS for managing visitor entries, check-ins/check-outs, and host notifications. Secure JWT auth, real-time updates, and an admin dashboard.',
