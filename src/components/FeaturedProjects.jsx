@@ -6,6 +6,28 @@ import { Button } from '@/components/ui/button'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 
 const PROJECTS = [
+   {
+  title: 'AADHAR – Charity Management & Donation Platform',
+  description: 'A production-grade full-stack charity management platform with secure authentication, role-based access control, online donation processing, transaction tracking, and AWS deployment.',
+  tech: [
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'JWT',
+    'RBAC',
+    'REST APIs',
+    'Payment Gateway - Razorpay',
+  ],
+  frontendGithub: 'https://github.com/Nilu024/FYP-Frontend',
+  backendGithub: 'https://github.com/Nilu024/FYP-Backend',
+  demo: 'https://fyp-frontend-lemon.vercel.app/',
+  emoji: '❤️',
+  gradient: 'from-rose-500 via-red-500 to-orange-500',
+  glow: 'rgba(244,63,94,0.25)',
+  badge: 'bg-rose-500/10 text-rose-400 border-rose-500/25',
+  num: '01',
+}
   {
     title: 'Visitor Management System',
     description: 'Full-stack VMS for managing visitor entries, check-ins/check-outs, and host notifications. Secure JWT auth, real-time updates, and an admin dashboard.',
@@ -17,7 +39,7 @@ const PROJECTS = [
     gradient: 'from-indigo-500 via-violet-500 to-purple-600',
     glow: 'rgba(99,102,241,0.25)',
     badge: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/25',
-    num: '01',
+    num: '02',
   },
   {
     title: 'Task Manager',
@@ -30,7 +52,7 @@ const PROJECTS = [
     gradient: 'from-violet-500 via-purple-500 to-fuchsia-600',
     glow: 'rgba(139,92,246,0.25)',
     badge: 'bg-violet-500/10 text-violet-400 border-violet-500/25',
-    num: '02',
+    num: '03',
   },
   {
     title: 'E-Commerce Website',
@@ -43,7 +65,7 @@ const PROJECTS = [
     gradient: 'from-cyan-500 via-sky-500 to-blue-600',
     glow: 'rgba(6,182,212,0.25)',
     badge: 'bg-cyan-500/10 text-cyan-400 border-cyan-500/25',
-    num: '03',
+    num: '04',
   },
   {
     title: 'Netflix Clone',
@@ -56,7 +78,7 @@ const PROJECTS = [
     gradient: 'from-red-500 via-rose-500 to-pink-600',
     glow: 'rgba(239,68,68,0.25)',
     badge: 'bg-red-500/10 text-red-400 border-red-500/25',
-    num: '04',
+    num: '05',
   },
   {
     title: 'Learning Platform',
@@ -69,7 +91,7 @@ const PROJECTS = [
     gradient: 'from-emerald-500 via-teal-500 to-cyan-600',
     glow: 'rgba(16,185,129,0.25)',
     badge: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/25',
-    num: '05',
+    num: '06',
   },
 ]
 
